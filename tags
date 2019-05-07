@@ -1,0 +1,360 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AdamWeightDecayOptimizer	server/bert/optimization.py	/^class AdamWeightDecayOptimizer(tf.train.Optimizer):$/;"	c
+BCManager	client/__init__.py	/^class BCManager():$/;"	c
+BasicTokenizer	server/bert/tokenization.py	/^class BasicTokenizer(object):$/;"	c
+BenchmarkClient	server/benchmark.py	/^class BenchmarkClient(threading.Thread):$/;"	c
+BertClient	client/__init__.py	/^            from bert_serving.client import BertClient$/;"	i
+BertClient	client/__init__.py	/^class BertClient(object):$/;"	c
+BertClient	server/benchmark.py	/^            from bert_serving.client import BertClient$/;"	i
+BertConfig	server/bert/modeling.py	/^class BertConfig(object):$/;"	c
+BertHTTPProxy	server/__init__.py	/^from .http import BertHTTPProxy$/;"	i
+BertHTTPProxy	server/http.py	/^class BertHTTPProxy(Process):$/;"	c
+BertModel	server/bert/modeling.py	/^class BertModel(object):$/;"	c
+BertServer	server/__init__.py	/^class BertServer(threading.Thread):$/;"	c
+BertServer	server/benchmark.py	/^    from bert_serving.server import BertServer$/;"	i
+BertServer	server/cli/__init__.py	/^    from bert_serving.server import BertServer$/;"	i
+BertSink	server/__init__.py	/^class BertSink(Process):$/;"	c
+BertWorker	server/__init__.py	/^class BertWorker(Process):$/;"	c
+CLS_TOKEN	server/graph.py	/^    CLS_TOKEN = 4  # corresponds to the first token for single seq.$/;"	v	class:PoolingStrategy
+CORS	server/http.py	/^            from flask_cors import CORS$/;"	i
+Compress	server/http.py	/^            from flask_compress import Compress$/;"	i
+ConcurrentBertClient	client/__init__.py	/^class ConcurrentBertClient(BertClient):$/;"	c
+ConcurrentBertClient	server/http.py	/^            from bert_serving.client import ConcurrentBertClient$/;"	i
+Enum	server/graph.py	/^from enum import Enum$/;"	i
+Estimator	server/__init__.py	/^        from tensorflow.python.estimator.estimator import Estimator$/;"	i
+EstimatorSpec	server/__init__.py	/^        from tensorflow.python.estimator.model_fn import EstimatorSpec$/;"	i
+Event	server/http.py	/^from multiprocessing import Process, Event$/;"	i
+ExitStack	server/zmq_decor.py	/^from contextlib import ExitStack$/;"	i
+FIRST_TOKEN	server/graph.py	/^    FIRST_TOKEN = 4  # corresponds to [CLS] for single sequences$/;"	v	class:PoolingStrategy
+Flask	server/http.py	/^            from flask import Flask, request$/;"	i
+FlaskJSON	server/http.py	/^            from flask_json import FlaskJSON, as_json, JsonError$/;"	i
+FullTokenizer	server/__init__.py	/^        from .bert.tokenization import FullTokenizer$/;"	i
+FullTokenizer	server/bert/tokenization.py	/^class FullTokenizer(object):$/;"	c
+GPUtil	server/__init__.py	/^                import GPUtil$/;"	i
+InputExample	server/bert/extract_features.py	/^class InputExample(object):$/;"	c
+InputFeatures	server/bert/extract_features.py	/^class InputFeatures(object):$/;"	c
+JsonError	server/http.py	/^            from flask_json import FlaskJSON, as_json, JsonError$/;"	i
+LAST_TOKEN	server/graph.py	/^    LAST_TOKEN = 5  # corresponds to [SEP] for single sequences$/;"	v	class:PoolingStrategy
+NONE	server/graph.py	/^    NONE = 0$/;"	v	class:PoolingStrategy
+NTLogger	server/helper.py	/^class NTLogger:$/;"	c
+Pool	server/__init__.py	/^from multiprocessing.pool import Pool$/;"	i
+PoolingStrategy	server/graph.py	/^class PoolingStrategy(Enum):$/;"	c
+PoolingStrategy	server/helper.py	/^    from .graph import PoolingStrategy$/;"	i
+Process	server/__init__.py	/^from multiprocessing import Process$/;"	i
+Process	server/http.py	/^from multiprocessing import Process, Event$/;"	i
+REDUCE_MAX	server/graph.py	/^    REDUCE_MAX = 1$/;"	v	class:PoolingStrategy
+REDUCE_MEAN	server/graph.py	/^    REDUCE_MEAN = 2$/;"	v	class:PoolingStrategy
+REDUCE_MEAN_MAX	server/graph.py	/^    REDUCE_MEAN_MAX = 3$/;"	v	class:PoolingStrategy
+Response	client/__init__.py	/^Response = namedtuple('Response', ['id', 'embedding', 'tokens'])$/;"	v
+RunConfig	server/__init__.py	/^        from tensorflow.python.estimator.run_config import RunConfig$/;"	i
+SEP_TOKEN	server/graph.py	/^    SEP_TOKEN = 5  # corresponds to the last token for single seq.$/;"	v	class:PoolingStrategy
+ServerCmd	server/__init__.py	/^class ServerCmd:$/;"	c
+ServerStatistic	server/__init__.py	/^class ServerStatistic:$/;"	c
+SinkJob	server/__init__.py	/^class SinkJob:$/;"	c
+TimeContext	server/helper.py	/^class TimeContext:$/;"	c
+WordpieceTokenizer	server/bert/tokenization.py	/^class WordpieceTokenizer(object):$/;"	c
+_Decorator	server/zmq_decor.py	/^from zmq.decorators import _Decorator$/;"	i
+_MyDecorator	server/zmq_decor.py	/^class _MyDecorator(_Decorator):$/;"	c
+_Response	client/__init__.py	/^_Response = namedtuple('_Response', ['id', 'content'])$/;"	v
+_SocketDecorator	server/zmq_decor.py	/^class _SocketDecorator(_MyDecorator):$/;"	c
+__all__	client/__init__.py	/^__all__ = ['__version__', 'BertClient', 'ConcurrentBertClient']$/;"	v
+__all__	client/_py2_var.py	/^__all__ = ['_py2', '_str', '_buffer', '_unicode']$/;"	v
+__all__	client/_py3_var.py	/^__all__ = ['_py2', '_str', '_buffer', '_raise']$/;"	v
+__all__	server/__init__.py	/^__all__ = ['__version__', 'BertServer']$/;"	v
+__all__	server/bert/extract_features.py	/^__all__ = ['convert_lst_to_features']$/;"	v
+__all__	server/graph.py	/^__all__ = ['PoolingStrategy', 'optimize_graph']$/;"	v
+__all__	server/helper.py	/^__all__ = ['set_logger', 'send_ndarray', 'get_args_parser',$/;"	v
+__all__	server/zmq_decor.py	/^__all__ = ['multi_socket']$/;"	v
+__call__	server/zmq_decor.py	/^    def __call__(self, *dec_args, **dec_kwargs):$/;"	m	class:_MyDecorator	file:
+__enter__	client/__init__.py	/^    def __enter__(self):$/;"	m	class:BCManager	file:
+__enter__	client/__init__.py	/^    def __enter__(self):$/;"	m	class:BertClient	file:
+__enter__	server/__init__.py	/^    def __enter__(self):$/;"	m	class:BertServer	file:
+__enter__	server/helper.py	/^    def __enter__(self):$/;"	m	class:TimeContext	file:
+__exit__	client/__init__.py	/^    def __exit__(self, *args):$/;"	m	class:BCManager	file:
+__exit__	client/__init__.py	/^    def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:BertClient	file:
+__exit__	server/__init__.py	/^    def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:BertServer	file:
+__exit__	server/helper.py	/^    def __exit__(self, typ, value, traceback):$/;"	m	class:TimeContext	file:
+__init__	client/__init__.py	/^    def __init__(self, available_bc):$/;"	m	class:BCManager
+__init__	client/__init__.py	/^    def __init__(self, ip='localhost', port=5555, port_out=5556,$/;"	m	class:BertClient
+__init__	client/__init__.py	/^    def __init__(self, max_concurrency=10, **kwargs):$/;"	m	class:ConcurrentBertClient
+__init__	server/__init__.py	/^    def __init__(self):$/;"	m	class:ServerStatistic
+__init__	server/__init__.py	/^    def __init__(self, args):$/;"	m	class:BertServer
+__init__	server/__init__.py	/^    def __init__(self, args, front_sink_addr, bert_config):$/;"	m	class:BertSink
+__init__	server/__init__.py	/^    def __init__(self, id, args, worker_address_list, sink_address, device_id, graph_path, graph_config):$/;"	m	class:BertWorker
+__init__	server/__init__.py	/^    def __init__(self, max_seq_len, max_position_embeddings, with_tokens, fixed_embed_length):$/;"	m	class:SinkJob
+__init__	server/benchmark.py	/^    def __init__(self, cargs, vocab):$/;"	m	class:BenchmarkClient
+__init__	server/bert/extract_features.py	/^    def __init__(self, tokens, input_ids, input_mask, input_type_ids):$/;"	m	class:InputFeatures
+__init__	server/bert/extract_features.py	/^    def __init__(self, unique_id, text_a, text_b):$/;"	m	class:InputExample
+__init__	server/bert/modeling.py	/^    def __init__(self,$/;"	m	class:BertConfig
+__init__	server/bert/modeling.py	/^    def __init__(self,$/;"	m	class:BertModel
+__init__	server/bert/optimization.py	/^    def __init__(self,$/;"	m	class:AdamWeightDecayOptimizer
+__init__	server/bert/tokenization.py	/^    def __init__(self, do_lower_case=True):$/;"	m	class:BasicTokenizer
+__init__	server/bert/tokenization.py	/^    def __init__(self, vocab, unk_token="[UNK]", max_input_chars_per_word=100):$/;"	m	class:WordpieceTokenizer
+__init__	server/bert/tokenization.py	/^    def __init__(self, vocab_file, do_lower_case=True):$/;"	m	class:FullTokenizer
+__init__	server/helper.py	/^    def __init__(self, context, verbose):$/;"	m	class:NTLogger
+__init__	server/helper.py	/^    def __init__(self, msg):$/;"	m	class:TimeContext
+__init__	server/http.py	/^    def __init__(self, args):$/;"	m	class:BertHTTPProxy
+__path__	__init__.py	/^__path__ = __import__('pkgutil').extend_path(__path__, __name__)$/;"	v
+__str__	server/graph.py	/^    def __str__(self):$/;"	m	class:PoolingStrategy	file:
+__version__	client/__init__.py	/^__version__ = '1.8.9'$/;"	v
+__version__	server/__init__.py	/^__version__ = '1.8.9'$/;"	v
+__version__	server/helper.py	/^    from . import __version__$/;"	i
+_buffer	client/_py2_var.py	/^_buffer = buffer$/;"	v
+_buffer	client/_py3_var.py	/^_buffer = memoryview$/;"	v
+_check_input_lst_lst_str	client/__init__.py	/^    def _check_input_lst_lst_str(texts):$/;"	m	class:BertClient
+_check_input_lst_str	client/__init__.py	/^    def _check_input_lst_str(texts):$/;"	m	class:BertClient
+_check_length	client/__init__.py	/^    def _check_length(texts, len_limit, tokenized):$/;"	m	class:BertClient
+_clean_text	server/bert/tokenization.py	/^    def _clean_text(self, text):$/;"	m	class:BasicTokenizer
+_concurrent	client/__init__.py	/^    def _concurrent(func):$/;"	m	class:ConcurrentBertClient
+_do_use_weight_decay	server/bert/optimization.py	/^    def _do_use_weight_decay(self, param_name):$/;"	m	class:AdamWeightDecayOptimizer
+_get_context	server/zmq_decor.py	/^    def _get_context(self, *args, **kwargs):$/;"	m	class:_SocketDecorator
+_get_device_map	server/__init__.py	/^    def _get_device_map(self):$/;"	m	class:BertServer
+_get_variable_name	server/bert/optimization.py	/^    def _get_variable_name(self, param_name):$/;"	m	class:AdamWeightDecayOptimizer
+_insert	server/__init__.py	/^    def _insert(self, data, pid, data_lst, idx_lst):$/;"	m	class:SinkJob
+_is_chinese_char	server/bert/tokenization.py	/^    def _is_chinese_char(self, cp):$/;"	m	class:BasicTokenizer
+_is_control	server/bert/tokenization.py	/^def _is_control(char):$/;"	f
+_is_punctuation	server/bert/tokenization.py	/^def _is_punctuation(char):$/;"	f
+_is_whitespace	server/bert/tokenization.py	/^def _is_whitespace(char):$/;"	f
+_print_dict	client/__init__.py	/^    def _print_dict(x, title=None):$/;"	m	class:BertClient
+_py2	client/_py2_var.py	/^_py2 = True$/;"	v
+_py2	client/_py3_var.py	/^_py2 = False$/;"	v
+_raise	client/_py3_var.py	/^def _raise(t_e, _e):$/;"	f
+_recv	client/__init__.py	/^    def _recv(self, wait_for_req_id=None):$/;"	m	class:BertClient
+_recv_ndarray	client/__init__.py	/^    def _recv_ndarray(self, wait_for_req_id=None):$/;"	m	class:BertClient
+_run	server/__init__.py	/^    def _run(self, _, frontend, sink, *backend_socks):$/;"	m	class:BertServer
+_run	server/__init__.py	/^    def _run(self, receiver, frontend, sender):$/;"	m	class:BertSink
+_run	server/__init__.py	/^    def _run(self, sink_embed, sink_token, *receivers):$/;"	m	class:BertWorker
+_run_split_on_punc	server/bert/tokenization.py	/^    def _run_split_on_punc(self, text):$/;"	m	class:BasicTokenizer
+_run_strip_accents	server/bert/tokenization.py	/^    def _run_strip_accents(self, text):$/;"	m	class:BasicTokenizer
+_send	client/__init__.py	/^    def _send(self, msg, msg_len=0):$/;"	m	class:BertClient
+_send_close_signal	server/__init__.py	/^    def _send_close_signal(self, _, frontend):$/;"	m	class:BertServer
+_str	client/_py2_var.py	/^_str = basestring$/;"	v
+_str	client/_py3_var.py	/^_str = str$/;"	v
+_tf_ver_	server/__init__.py	/^_tf_ver_ = check_tf_version()$/;"	v
+_timeout	client/__init__.py	/^    def _timeout(func):$/;"	m	class:BertClient
+_tokenize_chinese_chars	server/bert/tokenization.py	/^    def _tokenize_chinese_chars(self, text):$/;"	m	class:BasicTokenizer
+_truncate_seq_pair	server/bert/extract_features.py	/^def _truncate_seq_pair(tokens_a, tokens_b, max_length):$/;"	f
+_unicode	client/_py2_var.py	/^def _unicode(x):$/;"	f
+absolute_import	server/bert/modeling.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	server/bert/optimization.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	server/bert/tokenization.py	/^from __future__ import absolute_import$/;"	i
+add_embed	server/__init__.py	/^    def add_embed(self, data, pid):$/;"	m	class:SinkJob
+add_token	server/__init__.py	/^    def add_token(self, data, pid):$/;"	m	class:SinkJob
+apply_gradients	server/bert/optimization.py	/^    def apply_gradients(self, grads_and_vars, global_step=None, name=None):$/;"	m	class:AdamWeightDecayOptimizer
+arg_wrapper	client/__init__.py	/^        def arg_wrapper(self, *args, **kwargs):$/;"	f	function:BertClient._timeout
+arg_wrapper	client/__init__.py	/^        def arg_wrapper(self, *args, **kwargs):$/;"	f	function:ConcurrentBertClient._concurrent
+argparse	server/helper.py	/^import argparse$/;"	i
+as_json	server/http.py	/^            from flask_json import FlaskJSON, as_json, JsonError$/;"	i
+assert_rank	server/bert/modeling.py	/^def assert_rank(tensor, expected_rank, name=None):$/;"	f
+attention_layer	server/bert/modeling.py	/^def attention_layer(from_tensor,$/;"	f
+attr_value_pb2	server/graph.py	/^    from tensorflow.core.framework import attr_value_pb2$/;"	i
+auto_bind	server/helper.py	/^def auto_bind(socket):$/;"	f
+benchmark	server/cli/__init__.py	/^def benchmark():$/;"	f
+chain	server/__init__.py	/^from itertools import chain$/;"	i
+check_max_seq_len	server/helper.py	/^def check_max_seq_len(value):$/;"	f
+check_tf_version	server/helper.py	/^def check_tf_version():$/;"	f
+clear	server/__init__.py	/^    def clear(self):$/;"	m	class:SinkJob
+close	client/__init__.py	/^    def close(self):$/;"	m	class:BertClient
+close	client/__init__.py	/^    def close(self):$/;"	m	class:ConcurrentBertClient
+close	server/__init__.py	/^    def close(self):$/;"	m	class:BertServer
+close	server/__init__.py	/^    def close(self):$/;"	m	class:BertSink
+close	server/__init__.py	/^    def close(self):$/;"	m	class:BertWorker
+collections	server/bert/modeling.py	/^import collections$/;"	i
+collections	server/bert/tokenization.py	/^import collections$/;"	i
+colored	server/__init__.py	/^from termcolor import colored$/;"	i
+colored	server/graph.py	/^from termcolor import colored$/;"	i
+colored	server/helper.py	/^from termcolor import colored$/;"	i
+colored	server/http.py	/^from termcolor import colored$/;"	i
+contextlib	server/graph.py	/^import contextlib$/;"	i
+convert_by_vocab	server/bert/tokenization.py	/^def convert_by_vocab(vocab, items):$/;"	f
+convert_ids_to_tokens	server/bert/tokenization.py	/^    def convert_ids_to_tokens(self, ids):$/;"	m	class:FullTokenizer
+convert_ids_to_tokens	server/bert/tokenization.py	/^def convert_ids_to_tokens(inv_vocab, ids):$/;"	f
+convert_lst_to_features	server/__init__.py	/^        from .bert.extract_features import convert_lst_to_features$/;"	i
+convert_lst_to_features	server/bert/extract_features.py	/^def convert_lst_to_features(lst_str, max_seq_length, max_position_embeddings,$/;"	f
+convert_to_unicode	server/bert/tokenization.py	/^def convert_to_unicode(text):$/;"	f
+convert_tokens_to_ids	server/bert/tokenization.py	/^    def convert_tokens_to_ids(self, tokens):$/;"	m	class:FullTokenizer
+convert_tokens_to_ids	server/bert/tokenization.py	/^def convert_tokens_to_ids(vocab, tokens):$/;"	f
+convert_variables_to_constants	server/graph.py	/^def convert_variables_to_constants(sess,$/;"	f
+copy	server/bert/modeling.py	/^import copy$/;"	i
+create_attention_mask_from_input_mask	server/bert/modeling.py	/^def create_attention_mask_from_input_mask(from_tensor, to_mask):$/;"	f
+create_flask_app	server/http.py	/^    def create_flask_app(self):$/;"	m	class:BertHTTPProxy
+create_initializer	server/bert/modeling.py	/^def create_initializer(initializer_range=0.02):$/;"	f
+create_optimizer	server/bert/optimization.py	/^def create_optimizer(loss, init_lr, num_train_steps, num_warmup_steps, use_tpu):$/;"	f
+data_embed	server/__init__.py	/^    data_embed = b'EMBEDDINGS'$/;"	v	class:ServerCmd
+data_token	server/__init__.py	/^    data_token = b'TOKENS'$/;"	v	class:ServerCmd
+datetime	server/__init__.py	/^from datetime import datetime$/;"	i
+debug	server/helper.py	/^    def debug(self, msg, **kwargs):$/;"	m	class:NTLogger
+decorator	server/zmq_decor.py	/^        def decorator(func):$/;"	f	function:_MyDecorator.__call__
+deepcopy	server/benchmark.py	/^    from copy import deepcopy$/;"	i
+defaultdict	server/__init__.py	/^from collections import defaultdict$/;"	i
+division	server/bert/modeling.py	/^from __future__ import division$/;"	i
+division	server/bert/optimization.py	/^from __future__ import division$/;"	i
+division	server/bert/tokenization.py	/^from __future__ import division$/;"	i
+dropout	server/bert/modeling.py	/^def dropout(input_tensor, dropout_prob):$/;"	f
+embedding_lookup	server/bert/modeling.py	/^def embedding_lookup(input_ids,$/;"	f
+embedding_postprocessor	server/bert/modeling.py	/^def embedding_postprocessor(input_tensor,$/;"	f
+encode	client/__init__.py	/^    def encode(self, **kwargs):$/;"	m	class:ConcurrentBertClient
+encode	client/__init__.py	/^    def encode(self, texts, blocking=True, is_tokenized=False, show_tokens=False):$/;"	m	class:BertClient
+encode_async	client/__init__.py	/^    def encode_async(self, **kwargs):$/;"	m	class:ConcurrentBertClient
+encode_async	client/__init__.py	/^    def encode_async(self, batch_generator, max_num_batch=None, delay=0.1, **kwargs):$/;"	m	class:BertClient
+encode_query	server/http.py	/^        def encode_query():$/;"	f	function:BertHTTPProxy.create_flask_app
+error	server/helper.py	/^    def error(self, msg, **kwargs):$/;"	m	class:NTLogger
+extract_sub_graph	server/graph.py	/^    from tensorflow.python.framework.graph_util_impl import extract_sub_graph$/;"	i
+fetch	client/__init__.py	/^    def fetch(self, **kwargs):$/;"	m	class:ConcurrentBertClient
+fetch	client/__init__.py	/^    def fetch(self, delay=.0):$/;"	m	class:BertClient
+fetch_all	client/__init__.py	/^    def fetch_all(self, **kwargs):$/;"	m	class:ConcurrentBertClient
+fetch_all	client/__init__.py	/^    def fetch_all(self, sort=True, concat=False):$/;"	m	class:BertClient
+fill_data	server/__init__.py	/^        def fill_data():$/;"	f	function:SinkJob.add_embed
+from_dict	server/bert/modeling.py	/^    def from_dict(cls, json_object):$/;"	m	class:BertConfig
+from_json_file	server/bert/modeling.py	/^    def from_json_file(cls, json_file):$/;"	m	class:BertConfig
+from_string	server/graph.py	/^    def from_string(s):$/;"	m	class:PoolingStrategy
+gelu	server/bert/modeling.py	/^def gelu(input_tensor):$/;"	f
+gen	server/__init__.py	/^        def gen():$/;"	f	function:BertWorker.input_fn_builder
+get_activation	server/bert/modeling.py	/^def get_activation(activation_string):$/;"	f
+get_all_encoder_layers	server/bert/modeling.py	/^    def get_all_encoder_layers(self):$/;"	m	class:BertModel
+get_args_parser	server/helper.py	/^def get_args_parser():$/;"	f
+get_assignment_map_from_checkpoint	server/bert/modeling.py	/^def get_assignment_map_from_checkpoint(tvars, init_checkpoint):$/;"	f
+get_benchmark_parser	server/cli/__init__.py	/^    from bert_serving.server.helper import get_run_args, get_benchmark_parser$/;"	i
+get_benchmark_parser	server/helper.py	/^def get_benchmark_parser():$/;"	f
+get_client_status	server/http.py	/^        def get_client_status():$/;"	f	function:BertHTTPProxy.create_flask_app
+get_embedding_output	server/bert/modeling.py	/^    def get_embedding_output(self):$/;"	m	class:BertModel
+get_embedding_table	server/bert/modeling.py	/^    def get_embedding_table(self):$/;"	m	class:BertModel
+get_estimator	server/__init__.py	/^    def get_estimator(self, tf):$/;"	m	class:BertWorker
+get_min_max_avg	server/__init__.py	/^        def get_min_max_avg(name, stat):$/;"	f	function:ServerStatistic.value
+get_num_active_client	server/__init__.py	/^        def get_num_active_client(interval=180):$/;"	f	function:ServerStatistic.value
+get_pooled_output	server/bert/modeling.py	/^    def get_pooled_output(self):$/;"	m	class:BertModel
+get_run_args	server/cli/__init__.py	/^    from bert_serving.server.helper import get_run_args$/;"	i
+get_run_args	server/cli/__init__.py	/^    from bert_serving.server.helper import get_run_args, get_benchmark_parser$/;"	i
+get_run_args	server/cli/__init__.py	/^    from bert_serving.server.helper import get_run_args, get_shutdown_parser$/;"	i
+get_run_args	server/helper.py	/^def get_run_args(parser_fn=get_args_parser, printed=True):$/;"	f
+get_sequence_output	server/bert/modeling.py	/^    def get_sequence_output(self):$/;"	m	class:BertModel
+get_server_status	server/http.py	/^        def get_server_status():$/;"	f	function:BertHTTPProxy.create_flask_app
+get_shape_list	server/bert/modeling.py	/^def get_shape_list(tensor, expected_rank=None, name=None):$/;"	f
+get_shutdown_parser	server/cli/__init__.py	/^    from bert_serving.server.helper import get_run_args, get_shutdown_parser$/;"	i
+get_shutdown_parser	server/helper.py	/^def get_shutdown_parser():$/;"	f
+get_target	server/zmq_decor.py	/^    def get_target(self, *args, **kwargs):$/;"	m	class:_SocketDecorator
+graph_pb2	server/graph.py	/^    from tensorflow.core.framework import graph_pb2$/;"	i
+import_tf	server/graph.py	/^from .helper import import_tf, set_logger$/;"	i
+import_tf	server/helper.py	/^def import_tf(device_id=-1, verbose=False, use_fp16=False):$/;"	f
+info	server/helper.py	/^    def info(self, msg, **kwargs):$/;"	m	class:NTLogger
+input_fn	server/__init__.py	/^        def input_fn():$/;"	f	function:BertWorker.input_fn_builder
+input_fn_builder	server/__init__.py	/^    def input_fn_builder(self, socks, tf, sink):$/;"	m	class:BertWorker
+is_done	server/__init__.py	/^    def is_done(self):$/;"	m	class:SinkJob
+is_valid	server/__init__.py	/^    def is_valid(cmd):$/;"	m	class:ServerCmd
+json	server/bert/modeling.py	/^import json$/;"	i
+json	server/graph.py	/^import json$/;"	i
+jsonapi	client/__init__.py	/^from zmq.utils import jsonapi$/;"	i
+jsonapi	server/__init__.py	/^from zmq.utils import jsonapi$/;"	i
+jsonapi	server/helper.py	/^from zmq.utils import jsonapi$/;"	i
+layer_norm	server/bert/modeling.py	/^def layer_norm(input_tensor, name=None):$/;"	f
+layer_norm_and_dropout	server/bert/modeling.py	/^def layer_norm_and_dropout(input_tensor, dropout_prob, name=None):$/;"	f
+load_vocab	server/bert/tokenization.py	/^def load_vocab(vocab_file):$/;"	f
+logging	server/helper.py	/^import logging$/;"	i
+main	server/cli/__init__.py	/^def main():$/;"	f
+mark_unk_tokens	server/bert/tokenization.py	/^    def mark_unk_tokens(self, tokens, unk_token='[UNK]'):$/;"	m	class:FullTokenizer
+math	server/bert/modeling.py	/^import math$/;"	i
+mean	server/benchmark.py	/^from numpy import mean$/;"	i
+model_fn	server/__init__.py	/^        def model_fn(features, labels, mode, params):$/;"	f	function:BertWorker.get_estimator
+modeling	server/graph.py	/^from .bert import modeling$/;"	i
+multi_socket	server/__init__.py	/^from .zmq_decor import multi_socket$/;"	i
+multi_socket	server/zmq_decor.py	/^def multi_socket(*args, **kwargs):$/;"	f
+multiprocessing	server/__init__.py	/^import multiprocessing$/;"	i
+namedtuple	client/__init__.py	/^from collections import namedtuple$/;"	i
+new_job	server/__init__.py	/^    new_job = b'REGISTER'$/;"	v	class:ServerCmd
+node_def_pb2	server/graph.py	/^    from tensorflow.core.framework import node_def_pb2$/;"	i
+np	client/__init__.py	/^import numpy as np$/;"	i
+np	server/__init__.py	/^import numpy as np$/;"	i
+optimize_for_inference	server/graph.py	/^        from tensorflow.python.tools.optimize_for_inference_lib import optimize_for_inference$/;"	i
+optimize_graph	server/__init__.py	/^            from .graph import optimize_graph$/;"	i
+optimize_graph	server/graph.py	/^def optimize_graph(args, logger=None):$/;"	f
+os	server/__init__.py	/^import os$/;"	i
+os	server/graph.py	/^import os$/;"	i
+os	server/helper.py	/^import os$/;"	i
+patch_dtype	server/graph.py	/^    def patch_dtype(input_node, field_name, output_node):$/;"	f	function:convert_variables_to_constants
+print_function	server/bert/modeling.py	/^from __future__ import print_function$/;"	i
+print_function	server/bert/optimization.py	/^from __future__ import print_function$/;"	i
+print_function	server/bert/tokenization.py	/^from __future__ import print_function$/;"	i
+printable_text	server/bert/tokenization.py	/^def printable_text(text):$/;"	f
+process_decorator_args	server/zmq_decor.py	/^    def process_decorator_args(self, *args, **kwargs):$/;"	m	class:_SocketDecorator
+push_new_job	server/__init__.py	/^        def push_new_job(_job_id, _json_msg, _msg_len):$/;"	f	function:BertServer._run
+random	server/__init__.py	/^import random$/;"	i
+random	server/benchmark.py	/^import random$/;"	i
+re	server/bert/extract_features.py	/^import re$/;"	i
+re	server/bert/modeling.py	/^import re$/;"	i
+re	server/bert/optimization.py	/^import re$/;"	i
+read_examples	server/bert/extract_features.py	/^def read_examples(lst_strs):$/;"	f
+read_tokenized_examples	server/bert/extract_features.py	/^def read_tokenized_examples(lst_strs):$/;"	f
+request	server/http.py	/^            from flask import Flask, request$/;"	i
+reshape_from_matrix	server/bert/modeling.py	/^def reshape_from_matrix(output_tensor, orig_shape_list):$/;"	f
+reshape_to_matrix	server/bert/modeling.py	/^def reshape_to_matrix(input_tensor):$/;"	f
+result	server/__init__.py	/^    def result(self):$/;"	m	class:SinkJob
+run	client/__init__.py	/^        def run():$/;"	f	function:BertClient.encode_async
+run	server/__init__.py	/^    def run(self):$/;"	m	class:BertServer
+run	server/__init__.py	/^    def run(self):$/;"	m	class:BertSink
+run	server/__init__.py	/^    def run(self):$/;"	m	class:BertWorker
+run	server/benchmark.py	/^    def run(self):$/;"	m	class:BenchmarkClient
+run	server/http.py	/^    def run(self):$/;"	m	class:BertHTTPProxy
+run_benchmark	server/benchmark.py	/^def run_benchmark(args):$/;"	f
+run_benchmark	server/cli/__init__.py	/^    from bert_serving.server.benchmark import run_benchmark$/;"	i
+send_ndarray	server/helper.py	/^def send_ndarray(src, dest, X, req_id=b'', flags=0, copy=True, track=False):$/;"	f
+server_status	client/__init__.py	/^    def server_status(self):$/;"	m	class:BertClient
+server_status	client/__init__.py	/^    def server_status(self):$/;"	m	class:ConcurrentBertClient
+set_logger	server/graph.py	/^from .helper import import_tf, set_logger$/;"	i
+set_logger	server/helper.py	/^def set_logger(context, verbose=False):$/;"	f
+set_logger	server/http.py	/^from .helper import set_logger$/;"	i
+show_config	server/__init__.py	/^    show_config = b'SHOW_CONFIG'$/;"	v	class:ServerCmd
+shutdown	server/__init__.py	/^    def shutdown(args):$/;"	m	class:BertServer
+six	server/bert/modeling.py	/^import six$/;"	i
+six	server/bert/tokenization.py	/^import six$/;"	i
+status	client/__init__.py	/^    def status(self):$/;"	m	class:BertClient
+status	client/__init__.py	/^    def status(self):$/;"	m	class:ConcurrentBertClient
+sys	client/__init__.py	/^import sys$/;"	i
+sys	server/__init__.py	/^import sys$/;"	i
+sys	server/helper.py	/^import sys$/;"	i
+tempfile	server/graph.py	/^import tempfile$/;"	i
+tensor_util	server/graph.py	/^    from tensorflow.python.framework import tensor_util$/;"	i
+terminate	server/__init__.py	/^    terminate = b'TERMINATION'$/;"	v	class:ServerCmd
+terminate	server/cli/__init__.py	/^def terminate():$/;"	f
+tf	server/bert/modeling.py	/^import tensorflow as tf$/;"	i
+tf	server/bert/optimization.py	/^import tensorflow as tf$/;"	i
+tf	server/bert/tokenization.py	/^import tensorflow as tf$/;"	i
+tf	server/helper.py	/^    import tensorflow as tf$/;"	i
+threading	client/__init__.py	/^import threading$/;"	i
+threading	server/__init__.py	/^import threading$/;"	i
+threading	server/benchmark.py	/^import threading$/;"	i
+time	client/__init__.py	/^import time$/;"	i
+time	server/__init__.py	/^import time$/;"	i
+time	server/benchmark.py	/^import time$/;"	i
+time	server/helper.py	/^import time$/;"	i
+to_dict	server/bert/modeling.py	/^    def to_dict(self):$/;"	m	class:BertConfig
+to_json_string	server/bert/modeling.py	/^    def to_json_string(self):$/;"	m	class:BertConfig
+tokenization	server/bert/extract_features.py	/^from . import tokenization$/;"	i
+tokenize	server/bert/tokenization.py	/^    def tokenize(self, text):$/;"	m	class:BasicTokenizer
+tokenize	server/bert/tokenization.py	/^    def tokenize(self, text):$/;"	m	class:FullTokenizer
+tokenize	server/bert/tokenization.py	/^    def tokenize(self, text):$/;"	m	class:WordpieceTokenizer
+transformer_model	server/bert/modeling.py	/^def transformer_model(input_tensor,$/;"	f
+transpose_for_scores	server/bert/modeling.py	/^    def transpose_for_scores(input_tensor, batch_size, num_attention_heads,$/;"	f	function:attention_layer
+types_pb2	server/graph.py	/^    from tensorflow.core.framework import types_pb2$/;"	i
+unicodedata	server/bert/tokenization.py	/^import unicodedata$/;"	i
+update	server/__init__.py	/^    def update(self, request):$/;"	m	class:ServerStatistic
+uuid	client/__init__.py	/^import uuid$/;"	i
+uuid	server/helper.py	/^import uuid$/;"	i
+value	server/__init__.py	/^    def value(self):$/;"	m	class:ServerStatistic
+warning	server/helper.py	/^    def warning(self, msg, **kwargs):$/;"	m	class:NTLogger
+warnings	client/__init__.py	/^import warnings$/;"	i
+warnings	server/helper.py	/^import warnings$/;"	i
+whitespace_tokenize	server/bert/tokenization.py	/^def whitespace_tokenize(text):$/;"	f
+wrapper	server/zmq_decor.py	/^            def wrapper(*args, **kwargs):$/;"	f	function:_MyDecorator.__call__.decorator
+wraps	client/__init__.py	/^from functools import wraps$/;"	i
+wraps	server/zmq_decor.py	/^from functools import wraps$/;"	i
+zmq	client/__init__.py	/^import zmq$/;"	i
+zmq	server/__init__.py	/^import zmq$/;"	i
+zmq	server/__init__.py	/^import zmq.decorators as zmqd$/;"	i
+zmq	server/helper.py	/^import zmq$/;"	i
+zmq	server/zmq_decor.py	/^import zmq$/;"	i
+zmqd	server/__init__.py	/^import zmq.decorators as zmqd$/;"	i
